@@ -1,0 +1,9 @@
+{
+    "MD001": false,             //heading-increment/header-increment
+    "MD004": false,             //ul-style
+    "MD005": false,             //list-indent
+    "MD029": false,             //ol-prefix
+    "MD032": false,             // blank-around-lists
+    "MD033": false,             //no-inline-html
+    "MD041": false              //first-line-heading/first-line-h1
+}
