@@ -8,7 +8,7 @@
 > * [THE SHORT DESCRIPTION](#the-short-description)
 > * [THE DETAIL DESCRIPTION](#the-detail-description)
 > * [THE INSTALLATION](#the-installation)
-> * [COPYRIGHT & LICENSE](#copyright-&-license)
+> * [COPYRIGHT & LICENSE](#copyright-and-license)
 
 ![Logo](logo.png)
 
@@ -121,7 +121,7 @@ ___
 
 [**&#8593; BACK TO TOP &#8593;**](#wsl-start)
 
-## COPYRIGHT & LICENSE
+## COPYRIGHT AND LICENSE
 
 - Script wsl-start copyright 2021 [Bofino](https://github.com/Bofino).
 - Code released under the [MIT License](https://github.com/Bofino/wsl-start//blob/main/LICENSE).
