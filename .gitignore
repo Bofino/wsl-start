@@ -1,0 +1,6 @@
+/Recovery/
+/$RECYCLE.BIN/
+/RECYCLE.BIN/
+/System Volume Information/
+pagefile.sys
+DumpStack.log.tmp
