@@ -1,0 +1,9 @@
+# THE CUSTOM .GITATTRIBUTES
+* text=auto
+logo.png		binary
+README.md		text
+LICENSE			text
+.gitignore		text
+.editorconfig		text
+.gitattributes		text
+.markdownlintrc		text
