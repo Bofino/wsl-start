@@ -62,6 +62,7 @@
 - **lsb-release** - *Linux Standard Base version reporting utility*
 - **lsb-core** - *Linux Standard Base core support package*
 - **autoconf** - *automatic configure script builder*
+- **bison** - *YACC-compatible parser generator*
 - **curl** - *command line tool for transferring data with URL syntax*
 - **make** - *utility for directing compilation*
 - **gcc** - *GNU C compiler*
