@@ -28,7 +28,7 @@ function pause
 }
 ## MUST HAVE SOFTWARE
 function musthaveSoftware () {
-        for package in software-properties-common apt-transport-https ca-certificates build-essential lsb-release lsb-core autoconf gnupg2 curl make gcc g++ mc; do
+        for package in software-properties-common apt-transport-https ca-certificates build-essential lsb-release lsb-core autoconf gnupg2 bison curl make gcc g++ mc; do
         dpkg -s "$package" >/dev/null 2>&1 && {
                 echo -e "${RECOLOR}"
                 echo -e "${PURPLE}| ${YELLOW}$package ${CYAN}— is ${GREEN}already ${CYAN}installed. ${PURPLE}|"
@@ -255,15 +255,17 @@ echo -e "	${PURPLE}| ${CYAN}06. ${YELLOW}lsb-core ${PURPLE}---------------------
 echo -e "${RECOLOR}"
 echo -e "	${PURPLE}| ${CYAN}07. ${YELLOW}autoconf ${PURPLE}------------------------ |"
 echo -e "${RECOLOR}"
-echo -e "	${PURPLE}| ${CYAN}09. ${YELLOW}curl ${PURPLE}---------------------------- |"
+echo -e "       ${PURPLE}| ${CYAN}08. ${YELLOW}bison ${PURPLE}--------------------------- |"
 echo -e "${RECOLOR}"
-echo -e "	${PURPLE}| ${CYAN}10. ${YELLOW}make ${PURPLE}---------------------------- |"
+echo -e "	${PURPLE}| ${CYAN}10. ${YELLOW}curl ${PURPLE}---------------------------- |"
 echo -e "${RECOLOR}"
-echo -e "	${PURPLE}| ${CYAN}11. ${YELLOW}gcc ${PURPLE}----------------------------- |"
+echo -e "	${PURPLE}| ${CYAN}11. ${YELLOW}make ${PURPLE}---------------------------- |"
 echo -e "${RECOLOR}"
-echo -e "	${PURPLE}| ${CYAN}12. ${YELLOW}g++ ${PURPLE}----------------------------- |"
+echo -e "	${PURPLE}| ${CYAN}12. ${YELLOW}gcc ${PURPLE}----------------------------- |"
 echo -e "${RECOLOR}"
-echo -e "	${PURPLE}| ${CYAN}13. ${YELLOW}mc ${PURPLE}------------------------------ |"
+echo -e "	${PURPLE}| ${CYAN}13. ${YELLOW}g++ ${PURPLE}----------------------------- |"
+echo -e "${RECOLOR}"
+echo -e "	${PURPLE}| ${CYAN}14. ${YELLOW}mc ${PURPLE}------------------------------ |"
 echo -e "${RECOLOR}"
 echo -e "	${PURPLE} ---------------------------------------"
 echo -e "${RECOLOR}"
